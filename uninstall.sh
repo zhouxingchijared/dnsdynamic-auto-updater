@@ -1,6 +1,6 @@
 #!/bin/bash
 service_location="/etc/systemd/system/"
-service="test.service"
+service="update-host.service"
 systemctl stop $service
 systemctl disable $service
 rm /etc/systemd/system/$service
