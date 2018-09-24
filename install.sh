@@ -1,6 +1,6 @@
 #!/bin/bash
 service_location="/etc/systemd/system/"
-service="test.service"
+service="update-host.service"
 pwd=$(pwd)
 
 cat > $service_location$service <<- _EOF
