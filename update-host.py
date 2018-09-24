@@ -3,9 +3,9 @@ import urllib2
 import requests
 import time
 
-username = "zhouxingchijay@gmail.com"
-password = "s57-6sD-anT-7tR"
-hostname = "zhouxingchi.dnsdynamic.net"
+username = "your username"
+password = "your password"
+hostname = "your hostname"
 
 APIbase = "https://"+username+":"+password+"@www.dnsdynamic.org/api/?hostname="+hostname+"&myip="
 SLEEP_TIME = 100
