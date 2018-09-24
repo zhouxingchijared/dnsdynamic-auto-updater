@@ -7,4 +7,4 @@ This tool is for dnsdynaic, a free dns service provider only.
 ## Install
 * Use `sudo ./install.sh` to install a systemd service.
 * It will immediately and start on boot by default.
-* You can use systemctl commands to manage the service.
+* You can use `systemctl` commands to manage the service.
